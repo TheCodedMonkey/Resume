@@ -1,0 +1,49 @@
+.sidebar {
+    height: 800px;
+    width: 200px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding-top: 40px;
+    background-color: darkgray;
+  }
+  .sidebar div {
+    padding: 8px;
+    font-size: 24px;
+    display: block;
+  }
+  .body-text {
+    margin-left: 150px;
+    font-size: 18px;
+  }
+  html, body {
+    min-height: 100%;
+    width: 600px;
+}
+p{
+  padding-left: 200px;
+}
+ul{
+  padding-left: 200px;
+}
+h2{
+  padding-left: 200px;
+}
+#Contact {
+ font-size: 40px;
+ line-height: 1;
+ font-family: monospace;
+ border: 3cqb;
+ border-radius: 10px;
+}
+#Phone {
+  font-size: 14px;
+ }
+
+#email {
+  font-size: 13px;
+ }
+.sidebar{
+  line-height: 1em;
+  font-family: Arial, Helvetica, sans-serif;
+ }
