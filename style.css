@@ -1,5 +1,5 @@
 .sidebar {
-    height: 1000px;
+    height: 935px;
     width: 200px;
     position: absolute;
     left: 0;
@@ -19,7 +19,7 @@
     font-size: 18px;
   }
   html, body {
-    height: 700px;
+    height: 935px;
     width: 600px;
 }
 p{
@@ -36,8 +36,16 @@ h2{
  text-decoration-line: underline;
 text-decoration-thickness: 2px; 
 }
+#side{
+  font-size: 40px;
+  line-height: .2;
+  font-family: monospace;
+  text-decoration-line: underline;
+ text-decoration-thickness: 2px; 
+ }
 #Phone {
   font-size: 14px;
+  line-height: 2;
  }
 
 #email {
@@ -51,11 +59,11 @@ text-decoration-thickness: 2px;
   padding-left: 220px;
 }
 #languages{
-  font-size: 16px;
-  line-height: .9;
+  font-size: 17px;
+  line-height: 1.2;
 }
 #sl3{
-  line-height: ;
+  
 }
 #hr{
   height: 0px;
@@ -63,14 +71,26 @@ text-decoration-thickness: 2px;
 }
 #head{
   padding-left: 200px;
-  font-size: 50px;
+  font-size: 60px;
   line-height: .00;
   color: ;
 }
-ul{
-  padding-left: 220px;
-}
+
 h2{
   font-size: 30px;
   line
+}
+#skill{
+  font-size: 18px;
+  text-align: justify;
+  line-height: 0px
+}
+#job{
+  padding-left: 210px;
+  font-size: 25px;
+  line-height: 0.5;
+}
+#imp{
+  font-size: 20px;
+  line-height: 0.4;
 }
