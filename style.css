@@ -18,6 +18,82 @@
     margin-left: 150px;
     font-size: 18px;
   }
+  body {
+    background-color: blanchedalmond;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    overflow-x: hidden; /* Hide horizontal overflow */
+}
+
+.sidebar {
+    width: 200px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    padding-top: 40px;
+    background-color: black;
+    color: white;
+    height: 100%; /* Fill the entire height of the viewport */
+    overflow-y: auto; /* Enable vertical scrolling if needed */
+}
+
+.body-text {
+    margin-left: 220px; /* Adjusted for sidebar width */
+    padding: 20px;
+    overflow-x: auto; /* Enable horizontal scrolling if content exceeds viewport */
+}
+
+/* Adjustments for specific elements */
+#head {
+    padding-left: 200px;
+    font-size: 60px;
+    line-height: 0.8; /* Adjust line height as needed */
+    color: rgb(0, 0, 0); /* Ensure text color is visible on the background */
+}
+
+#side {
+    font-size: 40px;
+    line-height: 0.8; /* Adjust line height as needed */
+    color: rgb(0, 0, 0); /* Ensure text color is visible on the background */
+}
+
+#job {
+    padding-left: 210px;
+    font-size: 25px;
+    line-height: 1.2; /* Adjust line height as needed */
+    color: black; /* Ensure text color is visible on the background */
+}
+
+#imp {
+    font-size: 20px;
+    line-height: 1.2; /* Adjust line height as needed */
+    color: black; /* Ensure text color is visible on the background */
+}
+
+#list {
+    padding-left: 220px;
+    line-height: 1.4; /* Adjust line height as needed */
+}
+
+#languages {
+    font-size: 17px;
+    line-height: 1.4; /* Adjust line height as needed */
+    color: black; /* Ensure text color is visible on the background */
+}
+
+.section {
+    padding: 8px;
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 10px;
+    color: rgb(0, 0, 0); /* Ensure text color is visible on the background */
+}
+
+.sidebar img {
+    display: block;
+    margin: 0 auto;
+}
   html, body {
     height: 935px;
     width: 600px;
