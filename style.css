@@ -79,7 +79,7 @@
 #languages {
     font-size: 17px;
     line-height: 1.4; /* Adjust line height as needed */
-    color: black; /* Ensure text color is visible on the background */
+    color: rgb(255, 255, 255); /* Ensure text color is visible on the background */
 }
 
 .section {
